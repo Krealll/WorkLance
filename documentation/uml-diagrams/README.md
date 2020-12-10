@@ -106,7 +106,7 @@ Server|Сервер, хранящий пользовательские данн�
 ![State machine Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/State%20machine/State_2.png)
 ![State machine Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/State%20machine/State_3.png)
 ### 5. Диаграмма классов 
-Диаграмма классов представлена ниже: [Class diagramm](https://github.com/Krealll/WorkLance/blob/master/documentation/Class%20Diagram/Class%20Diagramm.png)
+Диаграмма классов представлена по ссылке: [Class diagramm](https://github.com/Krealll/WorkLance/blob/master/documentation/Class%20Diagram/Class%20Diagramm.png)
 ### 6. Диаграмма развёртывания и компонентов
-Диаграмма развёртывания и компонентов выглядит следующим образом:
-![Deployment diagramm](https://github.com/Krealll/WorkLance/blob/master/documentation/Deployment%20and%20Components/Deploy.png)
+Диаграмма развёртывания и компонентов находится по ссылке:[Deployment diagramm](https://github.com/Krealll/WorkLance/blob/master/documentation/Deployment%20and%20Components/Deploy.png)
+.
