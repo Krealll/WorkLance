@@ -95,8 +95,18 @@ Server|Сервер, хранящий пользовательские данн�
 ### 2. Диаграмма активности<a name="2"></a>
 Диагаммы активности более подробно расписаны в следующем документе: [диаграммы активности](https://github.com/Krealll/WorkLance/tree/master/documentation/Activity)
 
-### 3. Диаграмма последовательности<a name="3"></a>
+### 3. Диаграммы последовательности<a name="3"></a>
 Диаграммы последовательности представляют из себя следующие диаграммы:
 ![Sequence Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/Sequence/ApproveSeq.png)
 ![Sequence Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/Sequence/LoginSeq.png)
 ![Sequence Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/Sequence/RegistrationSeq.png)
+### 4. Диаграммы состояний
+Диаграммы состояний приведены ниже :
+![State machine Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/State%20machine/State_1.png)
+![State machine Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/State%20machine/State_2.png)
+![State machine Diagram](https://github.com/Krealll/WorkLance/blob/master/documentation/State%20machine/State_3.png)
+### 5. Диаграмма классов 
+Диаграмма классов представлена ниже: [Class diagramm](https://github.com/Krealll/WorkLance/blob/master/documentation/Class%20Diagram/Class%20Diagramm.png)
+### 6. Диаграмма развёртывания и компонентов
+Диаграмма развёртывания и компонентов выглядит следующим образом:
+![Deployment diagramm](https://github.com/Krealll/WorkLance/blob/master/documentation/Deployment%20and%20Components/Deploy.png)
