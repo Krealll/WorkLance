@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+    <tlib-version>1.0</tlib-version>
+    <short-name>ctg</short-name>
+    <uri>customtags</uri>
+
+    <tag>
+        <name>employee_pagination</name>
+        <tag-class>com.krealll.worklance.tag.EmployeePaginationTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>pageNumber</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>employeesOnPage</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>notification_pagination</name>
+        <tag-class>com.krealll.worklance.tag.NotificationPaginationTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>pageNumber</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>notificationsOnPage</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>userRole</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>order_status</name>
+        <tag-class>com.krealll.worklance.tag.OrderStatusTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>currentOrder</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>specialization</name>
+        <tag-class>com.krealll.worklance.tag.SpecializationTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>currentUser</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>orders_pagination</name>
+        <tag-class>com.krealll.worklance.tag.OrderPaginationTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>pageNumber</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>ordersOnPage</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>members_pagination</name>
+        <tag-class>com.krealll.worklance.tag.MemberPaginationTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>pageNumber</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>membersOnPage</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>team_pagination</name>
+        <tag-class>com.krealll.worklance.tag.TeamPaginationTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>pageNumber</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>teamsOnPage</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+</taglib>
