@@ -71,7 +71,7 @@ ___
 
 ___
 ## Database structure
-![DataBase.PNG](database/DataBase.PNG)
+![DataBase.PNG](sql/DataBase.PNG)
 ___
 ## Technologies
 - [JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) - Java Development kit 8
