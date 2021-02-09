@@ -77,7 +77,7 @@ ___
   - File(Intellij)->Project Settings->Modules->Web Resource Directories->Choose corresponding webapp(src/main/webapp) directory path->Apply 
   
 
-__
+___
 ## Database structure
 ![DataBase.PNG](sql/DataBase.PNG)
 ___
