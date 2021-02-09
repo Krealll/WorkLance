@@ -3,20 +3,16 @@ package com.krealll.worklance.model.pool;
 import com.krealll.worklance.exception.CustomPropertyException;
 import com.krealll.worklance.util.DataBaseProperty;
 import com.krealll.worklance.util.PropertyReader;
-import com.sun.jndi.ldap.pool.Pool;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.ArrayDeque;
 import java.util.Properties;
-import java.util.Queue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class ConnectionPool {
 

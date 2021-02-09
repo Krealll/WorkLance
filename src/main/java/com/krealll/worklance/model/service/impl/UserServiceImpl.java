@@ -6,13 +6,13 @@ import com.krealll.worklance.exception.ServiceException;
 import com.krealll.worklance.model.builder.UserBuilder;
 import com.krealll.worklance.model.dao.UserDao;
 import com.krealll.worklance.model.dao.impl.UserDaoImpl;
-import com.krealll.worklance.model.entity.type.Specialization;
 import com.krealll.worklance.model.entity.User;
+import com.krealll.worklance.model.entity.type.Specialization;
 import com.krealll.worklance.model.service.UserService;
-import com.krealll.worklance.util.HashGenerator;
-import com.krealll.worklance.util.MapKeys;
 import com.krealll.worklance.model.validator.DescriptionValidator;
 import com.krealll.worklance.model.validator.Validator;
+import com.krealll.worklance.util.HashGenerator;
+import com.krealll.worklance.util.MapKeys;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,7 +1,5 @@
 package com.krealll.worklance.controller.command;
 
-import com.krealll.worklance.model.pool.ConnectionPool;
-
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 

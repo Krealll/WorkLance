@@ -4,8 +4,8 @@ import com.krealll.worklance.exception.DaoException;
 import com.krealll.worklance.model.builder.UserBuilder;
 import com.krealll.worklance.model.dao.ColumnName;
 import com.krealll.worklance.model.dao.UserDao;
-import com.krealll.worklance.model.entity.type.Specialization;
 import com.krealll.worklance.model.entity.User;
+import com.krealll.worklance.model.entity.type.Specialization;
 import com.krealll.worklance.model.entity.type.UserRole;
 import com.krealll.worklance.model.pool.ConnectionPool;
 import com.krealll.worklance.util.MapKeys;
@@ -13,9 +13,14 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.*;
-import java.sql.*;
-import java.util.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 public class UserDaoImpl implements UserDao {
 

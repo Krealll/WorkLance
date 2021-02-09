@@ -1,6 +1,5 @@
 package com.krealll.worklance.model.entity;
 
-import com.krealll.worklance.model.builder.TeamBuilder;
 import com.krealll.worklance.model.entity.type.OrderStatus;
 
 import java.time.LocalDate;

@@ -1,10 +1,10 @@
 package com.krealll.worklance.controller.command.impl;
 
 import com.krealll.worklance.controller.PagePath;
+import com.krealll.worklance.controller.RequestParameter;
 import com.krealll.worklance.controller.SessionAttribute;
 import com.krealll.worklance.controller.command.Command;
 import com.krealll.worklance.controller.command.CommandType;
-import com.krealll.worklance.controller.RequestParameter;
 import com.krealll.worklance.controller.router.Router;
 import com.krealll.worklance.exception.ServiceException;
 import com.krealll.worklance.model.entity.User;
@@ -23,7 +23,9 @@ import org.apache.logging.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
 
 public class RegisterCommand  implements Command  {
 

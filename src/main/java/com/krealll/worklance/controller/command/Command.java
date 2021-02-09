@@ -2,11 +2,8 @@ package com.krealll.worklance.controller.command;
 
 import com.krealll.worklance.controller.RequestParameter;
 import com.krealll.worklance.controller.router.Router;
-import com.krealll.worklance.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * The interface Command.

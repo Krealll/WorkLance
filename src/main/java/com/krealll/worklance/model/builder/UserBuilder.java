@@ -1,7 +1,7 @@
 package com.krealll.worklance.model.builder;
 
-import com.krealll.worklance.model.entity.type.Specialization;
 import com.krealll.worklance.model.entity.User;
+import com.krealll.worklance.model.entity.type.Specialization;
 import com.krealll.worklance.model.entity.type.UserRole;
 
 public class UserBuilder {
