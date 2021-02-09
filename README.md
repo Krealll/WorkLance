@@ -5,8 +5,9 @@ Worklance - work and employee search service.
 1. [General info](#General-info)
 2. [Features](#Features)
 3. [Showcase](#Showcase)
-4. [Database structure](#Database-structure)
-5. [Technologies](#Technologies)
+4. [Deployment](#Deployment)
+5. [Database structure](#Database-structure)
+6. [Technologies](#Technologies)
 ___
 ## General info
 Worklance is a web-service that allows you to easily find orders, create orders, search for employees, contact with them and create teams.
@@ -70,6 +71,10 @@ ___
 ![small_team_members_editing.png](pages/small_team_members_editing.png)
 
 ___
+## Deployment order
+
+
+__
 ## Database structure
 ![DataBase.PNG](sql/DataBase.PNG)
 ___
