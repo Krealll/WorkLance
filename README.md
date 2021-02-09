@@ -5,7 +5,7 @@ Worklance - work and employee search service.
 1. [General info](#General-info)
 2. [Features](#Features)
 3. [Showcase](#Showcase)
-4. [Deployment](#Deployment)
+4. [Deployment](#Deployment-order)
 5. [Database structure](#Database-structure)
 6. [Technologies](#Technologies)
 ___
