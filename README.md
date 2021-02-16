@@ -72,9 +72,12 @@ ___
 
 ___
 ## Deployment order
+  - Clone repository
+  - Edit configuration(Intellij) -> Deployment -> Application context(remove any value) -> Apply
+  - File(Intellij)->Project Settings->Modules->Web Resource Directories->Choose corresponding webapp(src/main/webapp) directory path->Apply 
+  
 
-
-__
+___
 ## Database structure
 ![DataBase.PNG](sql/DataBase.PNG)
 ___
