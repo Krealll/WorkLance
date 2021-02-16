@@ -48,7 +48,7 @@
                             <fmt:message key="order.budget"/>
                         </label><input class="form-control" type="text" required name="budget" id="budget" placeholder=
                             "<fmt:message key="order.placeholder.budget"/>"
-                                       minlength="1" maxlength="20" pattern="\d+\.\d+">
+                                      minlength="3" maxlength="16" pattern="\d{1,7}\.\d{1,8}">
                         <div class="form-row" style="margin-top: 20px;">
                             <div class="col">
                                 <input type="checkbox" name="show" id="show_email" value="true"

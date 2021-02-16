@@ -53,7 +53,7 @@
                         <input class="form-control" type="text" required name="budget" id="budget" placeholder=
                                     "<fmt:message key="order.placeholder.budget"/>"
                                value="${sessionScope.chosen_order.budget}"
-                                    pattern="\d+\.\d+" minlength="1" maxlength="20">
+                               minlength="3" maxlength="16" pattern="\d{1,7}\.\d{1,8}">
                     </div>
                 </div>
                 <div class="form-group">

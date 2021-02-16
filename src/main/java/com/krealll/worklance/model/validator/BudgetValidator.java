@@ -2,7 +2,7 @@ package com.krealll.worklance.model.validator;
 
 public class BudgetValidator {
 
-    private final static String BUDGET_PATTERN = "\\d+\\.\\d+";
+    private final static String BUDGET_PATTERN = "\\d{1,7}\\.\\d{1,8}";
 
     private BudgetValidator(){};
 

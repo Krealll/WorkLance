@@ -99,11 +99,11 @@
                                 <input class="form-control" type="text" placeholder=
                                         "<fmt:message key="orders.placeholder.budget.lower"/>"
                                        required name="lower" id="lower"
-                                       minlength="1" maxlength="20" pattern="\d+\.\d+">
+                                       minlength="3" maxlength="16" pattern="\d{1,7}\.\d{1,8}">
                                 <input class="form-control" type="text" style="margin-bottom: 20px;" placeholder=
                                         "<fmt:message key="orders.placeholder.budget.upper"/>"
                                        required name="upper" id="upper"
-                                       minlength="1" maxlength="20" pattern="\d+\.\d+">
+                                       minlength="3" maxlength="16" pattern="\d{1,7}\.\d{1,8}">
                                 <button class="btn btn-primary text-center" type="submit">
                                     <fmt:message key="common.button.find"/>
                                 </button>
